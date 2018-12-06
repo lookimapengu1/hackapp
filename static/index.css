@@ -1,0 +1,31 @@
+/*basic reset*/
+* {margin: 0; padding: 0;}
+/*adding a black bg to the body to make things clearer*/
+body {background: black;}
+canvas {display: block;}
+
+#button-wrapper {
+    text-align:center;
+    height: 100%;
+}
+
+#start {
+    position: absolute;
+    top: 50%;
+    text-align: center;
+    color:greenyellow;
+    border:none;
+    font-family: "Courier New";
+    font-size: x-large;
+    background:black;
+    margin:0 auto;
+}
+
+#start:hover {
+    color: #5c9900;
+    cursor:pointer;
+}
+
+#start:focus {
+    outline: 0;
+}
